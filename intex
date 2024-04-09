@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Τρίλιζα</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <table id="gameBoard">
+        <tr>
+            <td onclick="mark(this)"></td>
+            <td onclick="mark(this)"></td>
+            <td onclick="mark(this)"></td>
+        </tr>
+        <tr>
+            <td onclick="mark(this)"></td>
+            <td onclick="mark(this)"></td>
+            <td onclick="mark(this)"></td>
+        </tr>
+        <tr>
+            <td onclick="mark(this)"></td>
+            <td onclick="mark(this)"></td>
+            <td onclick="mark(this)"></td>
+        </tr>
+    </table>
+    <div style="display: flex; justify-content: center;">
+			<button onclick="window.location.reload();">Νέο Παιχνίδι</button>
+		</div>
+	<script src="script.js"></script>
+</body>
+</html>
